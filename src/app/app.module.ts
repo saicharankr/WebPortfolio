@@ -10,7 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button'; 
 import {MatGridListModule} from '@angular/material/grid-list'; 
 import { NgParticlesModule } from "ng-particles";
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,8 @@ import { NgParticlesModule } from "ng-particles";
     MatCardModule,
     MatButtonModule,
     NgParticlesModule,
-    MatGridListModule
+    MatGridListModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

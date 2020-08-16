@@ -79,7 +79,7 @@
         justify-content: space-around;
     }
     .primary {
-        background-color: rgb(108, 238, 227);
+        background-color: rgb(245, 0, 12);
         border-radius: 10px;
         border: none;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -88,9 +88,10 @@
         text-decoration: none;
         display: inline-block;
         padding: 15px 32px;
+        color: white;
     }
     .accent {
-        background-color: rgb(13, 230, 49);
+        background-color: rgb(75, 1, 247);
         border-radius: 10px;
         border: none;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -99,9 +100,10 @@
         text-decoration: none;
         display: inline-block;
         padding: 15px 32px;
+        color: white;
     }
     .warn {
-        background-color: rgb(104, 107, 241);
+        background-color: rgb(255, 41, 4);
         border-radius: 10px;
         border: none;
         padding: 15px 32px;
@@ -110,6 +112,7 @@
         display: inline-block;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
+        color: white;
     }
     .basic {
         background-color: rgb(247, 6, 78);
@@ -121,6 +124,25 @@
         text-decoration: none;
         display: inline-block;
         padding: 15px 32px;
+        color: white;
+    }
+}
+
+.download-cv {
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+    button {
+        background-color: rgb(247, 6, 78);
+        border-radius: 10px;
+        border: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 32px;
+        color: white;
     }
 }
 
