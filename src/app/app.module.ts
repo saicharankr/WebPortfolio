@@ -9,7 +9,7 @@ import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button'; 
 import {MatGridListModule} from '@angular/material/grid-list'; 
-
+import { NgParticlesModule } from "ng-particles";
 
 
 @NgModule({
@@ -24,7 +24,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonModule,
-
+    NgParticlesModule,
     MatGridListModule
   ],
   providers: [],
