@@ -1,0 +1,82 @@
+.root-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+    display: block;
+    background: rgb(11, 161, 248);
+    position: fixed;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+    clip-path: ellipse(33vw 40vh at 50% 50%);
+    transform: scale(2) translate(27vw, -18vh) rotate(335deg);
+    animation: 1s ease-in-out 0.2s both leftToRight;
+}
+
+.overlay1 {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+    display: block;
+    background: rgb(11, 161, 248);
+    position: fixed;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+    clip-path: circle(60px at 0 50px);
+    transform: scale(2) translate(27vw, -18vh) rotate(335deg);
+    animation: 1s ease-in-out 0.2s both leftToRight;
+}
+
+.card {
+    width: clamp(23ch, 50%, 46ch);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(144, 144, 233);
+    border-radius: 10px;
+}
+
+.image {
+    border-radius: 10%;
+}
+
+.visual {
+    height: 115px;
+    width: 100%;
+    background-color: rgb(10, 228, 199);
+    border-radius: 50px;
+}
+
+.name {
+    display: grid;
+    justify-content: center;
+    margin-bottom: auto;
+    h2 {
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+    }
+    h3 {
+        line-height: 1em;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h4 {
+        font-size: 30px;
+        font-family: monospace;
+    }
+    @media only screen and (max-width: 600px) {
+        font-size: 20px;
+        text-align: center;
+    }
+}
