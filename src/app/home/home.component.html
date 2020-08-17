@@ -1,4 +1,5 @@
-<Particles id="tsparticles" [options]="particlesOptions" class="particles"></Particles>
+<Particles id="tsparticles" [options]="particlesOptions"></Particles>
+<Particles id="mousehover" [options]="pointerEffectOptions"></Particles>
 <div class="overlay"></div>
 <div class="overlay1"></div>
 <div class="root-container">
@@ -12,20 +13,31 @@
         <br/>
 
         <div class="buttons">
-            <button class="basic">About</button>
+            <button class="basic" (click)="openAbout()">About</button>
+            <button class="accent">Education Details</button>
             <button class="primary">Internships</button>
             <button class="accent">Job Experiance</button>
             <button class="warn">Blog</button>
 
         </div>
         <div class="download-cv">
-            <button>Download CV</button>
+
+            <button onclick="window.location.href='https://drive.google.com/file/d/1c9N38ofeCJBl3gM0-SORcQBWgc7DTKNz/view?usp=sharing';"> 
+                <span class="material-icons">get_app</span> 
+                Download CV
+            </button>
         </div>
 
     </div>
-    <div>
-
-
+    <div class="social">
+        <a href="https://github.com/saicharankr" target="_blank">
+            <fa-icon class="space" [icon]="['fab', 'github']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"> </fa-icon>
+        </a>
+        <a href="https://medium.com/@saicharan.kr1" target="_blank">
+            <fa-icon class="space" [icon]="['fab', 'medium']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"></fa-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/saicharan-kr" target="_blank">
+            <fa-icon class="space" [icon]="['fab', 'linkedin']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"></fa-icon>
+        </a>
     </div>
-
 </div>
