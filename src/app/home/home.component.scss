@@ -193,6 +193,8 @@
     background-position: 50% 50%;
     z-index: -1;
     overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 #mousehover {
@@ -210,6 +212,5 @@
     padding-top: 10px;
     .space {
         padding: 20px 10px;
-        color: blanchedalmond;
     }
 }
