@@ -14,14 +14,18 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 import { faGithub, faMedium,faLinkedinIn ,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { AboutComponent } from './about/about.component';
-import {MatDialogModule} from '@angular/material/dialog'; 
-
+import {MatDialogModule} from '@angular/material/dialog';
+import { EducationDetailsComponent } from './education-details/education-details.component'; 
+import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
+    EducationDetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,10 @@ import {MatDialogModule} from '@angular/material/dialog';
     NgParticlesModule,
     MatGridListModule,
     FontAwesomeModule,
-    MatDialogModule
+    MatDialogModule,
+    HttpClientModule,
+    NgbModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,29 @@
+<div class="root-container">
+    <div class="educationTitle">
+        <h2>Education Details</h2>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">class</th>
+                <th scope="col">university</th>
+                <th scope="col">college_name</th>
+                <th scope="col">percentage</th>
+                <th scope="col">yoc</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let edu of educationDetails">
+                <td>{{ edu.class }}</td>
+                <td>{{ edu.university }}</td>
+                <td>{{ edu.college_name }}</td>
+                <td>{{ edu.percentage }}</td>
+                <td>{{ edu.yoc}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="close">
+    <button class="primary" mat-dialog-close>Close</button>
+</div>

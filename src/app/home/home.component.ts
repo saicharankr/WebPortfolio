@@ -1,7 +1,8 @@
+import { EducationDetailsComponent } from './../education-details/education-details.component';
 import { AboutComponent } from './../about/about.component';
 import { Component, OnInit } from '@angular/core';
 import Typewriter from 'typewriter-effect/dist/core';
-import {MatDialog} from '@angular/material/dialog';
+import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
 
 
 @Component({
@@ -27,6 +28,15 @@ export class HomeComponent implements OnInit {
 
   openAbout() {
     const dialogRef = this.dialog.open(AboutComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
+  openEducationDetails()
+  {
+    const dialogRef = this.dialog.open(EducationDetailsComponent);
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
