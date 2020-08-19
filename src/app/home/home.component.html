@@ -1,43 +1,46 @@
 <Particles id="tsparticles" [options]="particlesOptions"></Particles>
 <Particles id="mousehover" [options]="pointerEffectOptions"></Particles>
-<div class="overlay"></div>
-<div class="overlay1"></div>
-<div class="root-container">
-    <div class="image">
-        <img src="assets\icons\icon-128x128.png" />
-    </div>
-    <div class="name">
-        <h2>Hello!,</h2>
-        <h3>I AM {{name}}</h3>
-        <h4 id="typewriter"></h4>
-        <br/>
+<div class="container ">
+    <div class="row">
+        <div class="overlay"></div>
+        <div class="overlay1"></div>
+        <div class="root-container">
+            <div class="image">
+                <img src="assets\icons\icon-128x128.png" />
+            </div>
+            <div class="name">
+                <h2>Hello!,</h2>
+                <h3>I AM {{name}}</h3>
+                <h4 id="typewriter"></h4>
+                <br/>
 
-        <div class="buttons">
-            <button class="basic" (click)="openAbout()">About</button>
-            <button class="accent">Education Details</button>
-            <button class="primary">Internships</button>
-            <button class="accent">Job Experiance</button>
-            <button class="warn">Blog</button>
+                <div class="buttons">
+                    <button class="basic" (click)="openAbout()">About</button>
+                    <button class="accent" (click)="openEducationDetails()">Education Details</button>
+                    <button class="primary">Internships</button>
+                    <button class="accent">Job Experiance</button>
+                    <button class="warn">Blog</button>
 
-        </div>
-        <div class="download-cv">
+                </div>
+                <div class="download-cv">
 
-            <button onclick="window.location.href='https://drive.google.com/file/d/1c9N38ofeCJBl3gM0-SORcQBWgc7DTKNz/view?usp=sharing';"> 
+                    <button onclick="window.location.href='https://drive.google.com/file/d/1c9N38ofeCJBl3gM0-SORcQBWgc7DTKNz/view?usp=sharing';"> 
                 <span class="material-icons">get_app</span> 
                 Download CV
             </button>
+                </div>
+            </div>
+            <div class="social">
+                <a href="https://github.com/saicharankr" target="_blank">
+                    <fa-icon class="space" [icon]="['fab', 'github']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"> </fa-icon>
+                </a>
+                <a href="https://medium.com/@saicharan.kr1" target="_blank">
+                    <fa-icon class="space" [icon]="['fab', 'medium']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"></fa-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/saicharan-kr" target="_blank">
+                    <fa-icon class="space" [icon]="['fab', 'linkedin']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"></fa-icon>
+                </a>
+            </div>
         </div>
-
-    </div>
-    <div class="social">
-        <a href="https://github.com/saicharankr" target="_blank">
-            <fa-icon class="space" [icon]="['fab', 'github']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"> </fa-icon>
-        </a>
-        <a href="https://medium.com/@saicharan.kr1" target="_blank">
-            <fa-icon class="space" [icon]="['fab', 'medium']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"></fa-icon>
-        </a>
-        <a href="https://www.linkedin.com/in/saicharan-kr" target="_blank">
-            <fa-icon class="space" [icon]="['fab', 'linkedin']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"></fa-icon>
-        </a>
     </div>
 </div>
