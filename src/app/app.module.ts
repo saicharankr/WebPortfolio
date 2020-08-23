@@ -19,6 +19,9 @@ import { EducationDetailsComponent } from './education-details/education-details
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatListModule} from '@angular/material/list';
+import { JobsComponent } from './jobs/jobs.component';
+import { BlogComponent } from './blog/blog.component';
+
 
 @NgModule({
   declarations: [
@@ -26,6 +29,8 @@ import {MatListModule} from '@angular/material/list';
     HomeComponent,
     AboutComponent,
     EducationDetailsComponent,
+    JobsComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,

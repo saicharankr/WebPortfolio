@@ -2,7 +2,7 @@ import { EducationDetailsComponent } from './../education-details/education-deta
 import { AboutComponent } from './../about/about.component';
 import { Component, OnInit } from '@angular/core';
 import Typewriter from 'typewriter-effect/dist/core';
-import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
+import {MatDialog} from '@angular/material/dialog';
 
 
 @Component({
@@ -58,12 +58,12 @@ export class HomeComponent implements OnInit {
    //Doc refer https://github.com/matteobruni/tsparticles/blob/master/components/angular/README.md
 
     this.particlesOptions = {
-      background: {
-        color: {
-          value: "#0d47a1",
+      // background: {
+      //   color: {
+      //     value: "#0d47a1",
           
-        }
-      },
+      //   }
+      // },
       fpsLimit: 60,
       interactivity: {
         detectsOn: "canvas",
@@ -260,13 +260,13 @@ export class HomeComponent implements OnInit {
       }
     },
     retina_detect: true,
-    background: {
-      color: "#000000",
-      image: "",
-      position: "50% 50%",
-      repeat: "no-repeat",
-      size: "cover"
-    }
+    // background: {
+    //   color: "#000000",
+    //   image: "",
+    //   position: "50% 50%",
+    //   repeat: "no-repeat",
+    //   size: "cover"
+    // }
   };
   
 }

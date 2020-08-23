@@ -1,0 +1,169 @@
+.root-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.padding {
+    padding: 20px 10px;
+}
+
+h1 {
+    line-height: 1em;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+
+// .background {
+//     height: 100vh;
+//     width: 100vw;
+//     // overflow: auto;
+//     z-index: -1;
+//     display: block;
+//     background-color: #0d47a1;
+//     position: fixed;
+//     right: 0;
+//     top: 0;
+//     pointer-events: none;
+// }
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    display: block;
+    background: rgb(11, 161, 248);
+    position: fixed;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+    clip-path: ellipse(33vw 40vh at 50% 50%);
+    transform: scale(2) translate(27vw, -18vh) rotate(335deg);
+    opacity: 50%;
+}
+
+.overlay1 {
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    display: block;
+    background: rgb(11, 161, 248);
+    position: fixed;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+    clip-path: circle(60px at 0 50px);
+    transform: scale(2) translate(27vw, -18vh) rotate(335deg);
+    opacity: 50%;
+}
+
+#tsparticles {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-color: #0d47a1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#mousehover {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1;
+    opacity: 30%;
+}
+
+.primary {
+    padding-left: 20px;
+    background-color: rgb(245, 0, 12);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    color: white;
+    outline: none;
+}
+
+.primary:hover {
+    background-color: rgb(0, 172, 240);
+}
+
+.accent {
+    background-color: rgb(75, 1, 247);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    color: white;
+    outline: none;
+}
+
+.accent:hover {
+    background-color: rgb(10, 33, 240);
+}
+
+.warn {
+    background-color: rgb(255, 41, 4);
+    border-radius: 10px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+
+.warn:hover {
+    background-color: darkviolet;
+}
+
+.basic {
+    background-color: rgb(247, 6, 78);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    color: white;
+    outline: none;
+}
+
+.basic:hover {
+    background-color: rgb(201, 11, 11);
+}

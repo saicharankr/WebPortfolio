@@ -6,12 +6,24 @@
     overflow: auto;
     background-attachment: fixed;
     background-position: center;
+    z-index: 1;
 }
 
+// .background {
+//     height: 100vh;
+//     width: 100vw;
+//     // overflow: auto;
+//     z-index: -1;
+//     display: block;
+//     background-color: #0d47a1;
+//     position: fixed;
+//     right: 0;
+//     top: 0;
+//     pointer-events: none;
+// }
 .overlay {
     height: 100vh;
     width: 100vw;
-    overflow: auto;
     z-index: -1;
     display: block;
     background: rgb(11, 161, 248);
@@ -165,6 +177,7 @@
     padding-top: 10px;
     display: grid;
     justify-content: center;
+    overflow: hidden;
     button {
         background-color: rgb(247, 6, 78);
         border-radius: 10px;
@@ -193,7 +206,7 @@
     background-size: cover;
     background-position: 50% 50%;
     z-index: -1;
-    overflow: auto;
+    overflow: hidden;
 }
 
 #mousehover {
@@ -205,6 +218,11 @@
     margin: 0;
     z-index: -1;
     opacity: 30%;
+}
+
+.space {
+    max-width: 20px;
+    max-height: 20px;
 }
 
 .social {
