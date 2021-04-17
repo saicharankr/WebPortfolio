@@ -1,0 +1,88 @@
+{
+  "configVersion": 1,
+  "timestamp": 1618643070426,
+  "index": "WebPortfolio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "WebPortfolio/favicon.ico",
+        "WebPortfolio/index.html",
+        "WebPortfolio/main-es2015.c86c3a248dd746e62645.js",
+        "WebPortfolio/main-es5.c86c3a248dd746e62645.js",
+        "WebPortfolio/manifest.webmanifest",
+        "WebPortfolio/polyfills-es2015.2320f4dbebd0efa7fb56.js",
+        "WebPortfolio/polyfills-es5.591b5ee033474730d8f5.js",
+        "WebPortfolio/runtime-es2015.0dae8cbc97194c7caed4.js",
+        "WebPortfolio/runtime-es5.0dae8cbc97194c7caed4.js",
+        "WebPortfolio/scripts.a55bb64091fab5cb8c29.js",
+        "WebPortfolio/styles.2a89e632b73960a7db22.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "WebPortfolio/assets/ProfilePic.jpg",
+        "WebPortfolio/assets/educationDetails.json",
+        "WebPortfolio/assets/icons/icon-128x128.png",
+        "WebPortfolio/assets/icons/icon-144x144.png",
+        "WebPortfolio/assets/icons/icon-152x152.png",
+        "WebPortfolio/assets/icons/icon-192x192.png",
+        "WebPortfolio/assets/icons/icon-384x384.png",
+        "WebPortfolio/assets/icons/icon-512x512.png",
+        "WebPortfolio/assets/icons/icon-72x72.png",
+        "WebPortfolio/assets/icons/icon-96x96.png",
+        "WebPortfolio/assets/jobDetails.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "WebPortfolio/assets/ProfilePic.jpg": "9e15cddcf09cd3e4236a7331716144947daebac7",
+    "WebPortfolio/assets/educationDetails.json": "1beda319484807112353abd9cb4a133bd13c50a9",
+    "WebPortfolio/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "WebPortfolio/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "WebPortfolio/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "WebPortfolio/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "WebPortfolio/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "WebPortfolio/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "WebPortfolio/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "WebPortfolio/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "WebPortfolio/assets/jobDetails.json": "473775c74569cebee7f8cdd7e2b3963ca9b8114b",
+    "WebPortfolio/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "WebPortfolio/index.html": "cc7239972f77bbf3846d28d97a9c0f980dcfe8d1",
+    "WebPortfolio/main-es2015.c86c3a248dd746e62645.js": "ca2dd242b994bddacc7723f97a91c8f6dd571421",
+    "WebPortfolio/main-es5.c86c3a248dd746e62645.js": "b028436a2e0b1402e7d7f60dfd3e4239b3171fb0",
+    "WebPortfolio/manifest.webmanifest": "8eb5f9289168cdcb57ce1463f7452950d9428472",
+    "WebPortfolio/polyfills-es2015.2320f4dbebd0efa7fb56.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
+    "WebPortfolio/polyfills-es5.591b5ee033474730d8f5.js": "ccfff1a6bd0b9531245e25bf3c0c8cf948ced8c2",
+    "WebPortfolio/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "WebPortfolio/runtime-es5.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "WebPortfolio/scripts.a55bb64091fab5cb8c29.js": "a2347260873dabebc3a396f2bad9e50f2906ed5d",
+    "WebPortfolio/styles.2a89e632b73960a7db22.css": "ad3f517ad1c929649af0563bc13a6f715599d26e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

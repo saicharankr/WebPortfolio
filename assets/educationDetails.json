@@ -1,0 +1,24 @@
+{
+    "educationDetails": [{
+            "collage_name": "The oxford college of engineering",
+            "university": "Visvesvaraya Technological University",
+            "class": "Bachelor of Engineering (B.E), (Mechatronics)",
+            "percentage": "8.05/10",
+            "yoc": "2019"
+        },
+        {
+            "collage_name": "Sri Krishna Pu college ",
+            "university": "Department of Pre-University Education, Karnataka",
+            "class": "XII (Senior Secondary), Science(PCME)",
+            "percentage": "78.50%",
+            "yoc": "2015"
+        },
+        {
+            "collage_name": "Sri Krishna international educational society ",
+            "university": "ICSE",
+            "class": "X (Secondary)",
+            "percentage": "70.5",
+            "yoc": "2013"
+        }
+    ]
+}
