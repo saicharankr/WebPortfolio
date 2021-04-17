@@ -1,56 +1,23 @@
-<Particles id="tsparticles" [options]="particlesOptions"></Particles>
-<div class="background"></div>
-<div class="overlay"></div>
-<div class="overlay1"></div>
-<div class="root-container">
-    <div class=row>
-        <h1>Internship Details</h1>
+<div>
+  <div class="row">
+    <div class="padding" *ngFor="let job of jobs">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <img mat-card-avatar src="{{ job.image }}" />
+          <mat-card-title class="company-name">{{
+            job.company_name
+          }}</mat-card-title>
+          <mat-card-subtitle class="company-role">{{ job.role }}</mat-card-subtitle>
+          <mat-card-subtitle class="company-duration">{{ job.duration }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p *ngFor="let dec of job.description" class="company-dec">{{ dec}}</p>
+          <p class="company-tools">Tools:- {{ job.tools_used }}</p>
+        </mat-card-content>
+      </mat-card>
     </div>
-    <div class="row ">
-        <div class="padding" *ngFor="let job of internship">
-            <mat-card class="example-card">
-                <mat-card-header>
-                    <img mat-card-avatar src={{job.image}}>
-                    <mat-card-title>{{job.company_name}}</mat-card-title>
-                    <mat-card-subtitle>{{job.role}}</mat-card-subtitle>
-                    <mat-card-subtitle>{{job.duration}}</mat-card-subtitle>
-                </mat-card-header>
-                <mat-card-content>
-                    <p>
-                        {{job.description[0]}}
-                    </p>
-                    <p>{{job.description[1]}}</p>
-                    <p>{{job.description[2]}}</p>
-                    <p> Tools:- {{job.tools_used}}</p>
-                </mat-card-content>
-            </mat-card>
-        </div>
-    </div>
-    <div class="row">
-        <h1>Jobs</h1>
-    </div>
-    <div class="row">
-        <div class="padding" *ngFor="let job of jobs">
-            <mat-card class="example-card">
-                <mat-card-header>
-                    <img mat-card-avatar src={{job.image}}>
-                    <mat-card-title>{{job.company_name}}</mat-card-title>
-                    <mat-card-subtitle>{{job.role}}</mat-card-subtitle>
-                    <mat-card-subtitle>{{job.duration}}</mat-card-subtitle>
-                </mat-card-header>
-                <mat-card-content>
-                    <p>
-                        {{job.description[0]}}
-                    </p>
-                    <p>{{job.description[1]}}</p>
-                    <p>{{job.description[2]}}</p>
-                    <p> Tools:- {{job.tools_used}}</p>
-                </mat-card-content>
-            </mat-card>
-        </div>
-    </div>
-    <div class="padding">
-        <button class="warn" routerLink="">Back</button>
-    </div>
-
+  </div>
+  <div class="close">
+    <button class="primary" mat-dialog-close>Close</button>
+  </div>
 </div>

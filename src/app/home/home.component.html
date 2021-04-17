@@ -1,23 +1,23 @@
 <Particles id="tsparticles" [options]="particlesOptions"></Particles>
-<Particles id="mousehover" [options]="pointerEffectOptions"></Particles>
+<!-- <Particles id="mousehover" [options]="pointerEffectOptions"></Particles> -->
 <!-- <div class="background"></div> -->
 <div class="overlay"></div>
 <div class="overlay1"></div>
 
 <div class="root-container">
-    <div class="image">
-        <img src="assets\icons\icon-128x128.png" />
+    <div >
+        <img class="image" src="assets\ProfilePic.jpg" />
     </div>
     <div class="name">
         <h2>Hello!,</h2>
         <h3>I AM {{name}}</h3>
         <h4 id="typewriter"></h4>
         <br/>
-
+        <h4>I am Reachable At <u><a id="typewriter1"></a></u></h4>
         <div class="buttons">
             <button class="basic" (click)="openAbout()">About</button>
             <button class="accent" (click)="openEducationDetails()">Education Details</button>
-            <button class="primary" routerLink="/jobs" routerLinkActive="active">Internships/Jobs</button>
+            <button class="primary" (click)="openJobDetails()">Jobs</button>
 
             <a href="https://medium.com/@saicharan.kr1" target="_blank">
                 <button class="warn">Blog</button>
@@ -36,13 +36,13 @@
     </div>
     <div class="social">
         <a href="https://github.com/saicharankr" target="_blank">
-            <fa-icon class="space" [icon]="['fab', 'github']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"> </fa-icon>
+            <fa-icon class="space" [icon]="['fab', 'github']" size="3x"  > </fa-icon>
         </a>
         <a href="https://medium.com/@saicharan.kr1" target="_blank">
-            <fa-icon class="space" [icon]="['fab', 'medium']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"></fa-icon>
+            <fa-icon class="space" [icon]="['fab', 'medium']" size="3x"  ></fa-icon>
         </a>
         <a href="https://www.linkedin.com/in/saicharan-kr" target="_blank">
-            <fa-icon class="space" [icon]="['fab', 'linkedin']" size="3x" [spin]="isAnimated" (click)="isAnimated=!isAnimated"></fa-icon>
+            <fa-icon class="space" [icon]="['fab', 'linkedin']" size="3x"  ></fa-icon>
         </a>
     </div>
 </div>

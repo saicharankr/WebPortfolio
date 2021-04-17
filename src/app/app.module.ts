@@ -21,6 +21,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatListModule} from '@angular/material/list';
 import { JobsComponent } from './jobs/jobs.component';
 import { BlogComponent } from './blog/blog.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 @NgModule({
