@@ -1,0 +1,17 @@
+{
+    "internship": [{
+            "company_name": "Saras micron tools Pvt Ltd.(Bangalore)",
+            "role": "Engineering-Trainee",
+            "duration": "July/9/2018 - July/31/2018",
+            "description": ["It is a machine tools manufacturing industry.Internship Result:-Suggested methods of automation and interconnectivity (IIOT) between various departments of plant/factory to increase the productivity."],
+            "tools_used": [""]
+        },
+        {
+            "company_name": "The/Nudge foundation.(Bangalore)",
+            "role": "Market Research Analyst",
+            "duration": "Aug 2019 - Oct 2019",
+            "description": [" I have worked on two projects.", "Impact Analysis of Gurukul Product by The/Nudge Foundation", "Impact Analysis of Kerela flood Fund Donation campaign"],
+            "tools_used": ["Advanced Excel", "Python", "Tableau"]
+        }
+    ]
+}
